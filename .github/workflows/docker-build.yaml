@@ -28,7 +28,7 @@ jobs:
             password: ${{ secrets.MYDOCKER_TOKEN }}
          -
           name: Build and Push
-          uses: docker/build-push-action@v1
+          uses: docker/build-push-action@v2
           with:
              context: .
              file: ./Dockerfile
