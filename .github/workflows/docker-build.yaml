@@ -35,7 +35,7 @@ jobs:
            file: ./Dockerfile
            platforms: linux/amd64,linux/arm64
            push: true
-           tag: eedy/python-helloworld:latest
+           tags: eedy/python-helloworld:latest
            build-args: |
               arg1=value1
               arg2=value2
