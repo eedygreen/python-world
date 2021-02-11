@@ -25,7 +25,7 @@ jobs:
          with:
            logout: false
            username: ${{ secrets.DOCKERHUB_USERNAME }}
-           password: ${{ secrets.MYDOCKER_TOKEN }}
+           password: ${{ secrets.DOCKERUB_TOKEN }}
         -
          name: Build and Push
          id: docker_build
