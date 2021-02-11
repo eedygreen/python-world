@@ -2,16 +2,14 @@ name: DockerBuild
 
 on:
    push:
-       branches: [ master ]
+      branches: master
    pull_request:
-       branches: [ master ]
-
-
+      branches: master
 
 jobs:
    main:
       build:
-          run-on: ubuntu-lates
+         run-on: ubuntu-lates
       steps:
          -
           name: Checkout
